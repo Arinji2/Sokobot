@@ -17,27 +17,21 @@ Thanks to the power of Java HashMaps™️, multiple users can use the bot at th
 To prevent Sokobot from conflicting with other bots, admins can choose any single-character prefix to preface Sokobot's commands.
 
 ## Commands
-### User
+### Game
 - ``!play`` can be used to start a game if you are not currently in one.
 - ``!stop`` can be used to stop your active game at any time.
+- ``!help`` provides some useful details about the bot and rules of the game.
 - ``!info`` provides some useful details about the bot and rules of the game.
-### Admin ``New!``
+### Economey ``NEW``
+ - ``!bal`` shows the players balance
+ - ``!shop``Sends an embed with the items you can buy/sell
+ - ``!sell [item] [amt|max]`` sells items to the shop
+ - ``!inv`` Sends an embed with your current inventory items
+ - ``!buy [item] [amt|max]`` buys items off the shop
+ - ``buy | inv | sell | buy | shop`` these can be accessed with an application command that sends a SelectMenu ``/eco``
+### Admin 
 - ``!prefix [character]`` can be used to change the prefix the bot responds to in the current server. 
-
-## Usage
-### Public host ``New!``
-Sokobot is available on top.gg and can be added to your server [in one click](https://top.gg/bot/713635251703906336/)! 
-### Self-hosting
-Grab the [latest .jar](https://github.com/PolyMarsDev/Sokobot/releases) or [build it yourself](#compiling). Then, create a Discord Bot Application [here](https://discord.com/developers/applications/) and paste the bot token into ``token.txt``. Then, ensure the two files are in the same directory and run the .jar file.
-Please note, this bot differs a bit from the public bot. For example, there is no voting rewards (custom emotes are always unlocked), no leaderboard, no progress saving, etc.
-
-
-
-## Compiling
-
-Install [Java 8 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and [Gradle](https://gradle.org/).
-In the root folder of the project, execute ``gradlew shadowJar``.
-The compiled .jar file will be located in ``build/libs``.
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Feel free to create a fork and use the code for any noncommercial purposes.
+### Dev ONLY
+- ``!addmoney
+- ``!setmoney
+- ``!cmdreg [guildid] [cmd name] [description]
