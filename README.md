@@ -1,37 +1,36 @@
 # Sokobot
-
-Sokobot is a Discord bot written with [JDA](https://github.com/DV8FromTheWorld/JDA) that lets you play [Sokoban](https://en.wikipedia.org/wiki/Sokoban), the classic box-pushing puzzle game.
-
-## Screenshots
-![Level 1](https://cdn.discordapp.com/attachments/670425377503707146/727568442034487316/sokobot_v1.1.gif)
-![Level 2](https://cdn.discordapp.com/attachments/670425377503707146/727567694597193829/sokobot_v1.1_.gif)
+## Screenshots ``Will be added in the future``
 
 ## Features
 ### Infinite levels
-The maps in Sokobot are randomly generated, increasing in difficulty as you progress.
+The maps levels are randomly generated through a custom map generator.
 ### Varied controls
-Sokobot has multiple control options to improve the player's experience, including reactions and wasd commands!
+To move your player use the provided buttons or WASD keys.
 ### Simultaneous games
-Thanks to the power of Java HashMaps™️, multiple users can use the bot at the same time without interfering with one another.
-### Custom prefixes ``New!``
-To prevent Sokobot from conflicting with other bots, admins can choose any single-character prefix to preface Sokobot's commands.
+Thanks to HashMaps™️,the bot can run multiple game instances at the same time without interfearing with another users game.
+### Custom prefixes
+To prevent other bots triggering on the ! prefix you are able to change the prefix with ``!prefix [character]`` keep in mind the prefix will never change unless you manually change it.
 
 ## Commands
 ### Game
 - ``!play`` can be used to start a game if you are not currently in one.
 - ``!stop`` can be used to stop your active game at any time.
-- ``!help`` provides some useful details about the bot and rules of the game.
-- ``!info`` provides some useful details about the bot and rules of the game.
-### Economey ``NEW``
+### Economy ``!New``
  - ``!bal`` shows the players balance
  - ``!shop``Sends an embed with the items you can buy/sell
  - ``!sell [item] [amt|max]`` sells items to the shop
  - ``!inv`` Sends an embed with your current inventory items
  - ``!buy [item] [amt|max]`` buys items off the shop
  - ``buy | inv | sell | buy | shop`` these can be accessed with an application command that sends a SelectMenu ``/eco``
+### Misc
+- ``!help`` provides some info on the commands and their usage on the bot
+- ``!info`` provides some info on the bots status and links for the bot
 ### Admin 
-- ``!prefix [character]`` can be used to change the prefix the bot responds to in the current server. 
-### Dev ONLY
-- ``!addmoney
-- ``!setmoney
-- ``!cmdreg [guildid] [cmd name] [description]
+- ``!prefix [character]`` can be used to change the prefix to whatever the user puts in ``[character]`` the char must be 1 character long
+### DEV ONLY
+- ``!addmoney`` Adds money to the user
+- ``!setmoney`` Sets the users balance 
+
+# Latest Update
+### Economy
+With the new economy you can now finish levels to get 10 money for every level completed, the more money you get the better items you can buy such as a pickaxe or an axe the shop also has some collectables you can buy and sell in the future i will make the collectables go towards something for more update join our [discord](https://discord.gg/T8yhmvVqph) or check out the sokobot [twitter](https://twitter.com/SokoBotStatus)
