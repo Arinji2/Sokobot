@@ -38,6 +38,7 @@ public class Game {
         if (!gameActive) {
             width = 9;
             height = 6;
+            Level = Bot.getLevel(user.getIdLong());
             for (int i = 1; i < level; i++) updateWidthHeight();
             grid = new Grid(width, height, level, playerEmote);
             gameActive = true;
