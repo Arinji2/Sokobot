@@ -15,8 +15,9 @@ To prevent other bots triggering on the ! prefix you are able to change the pref
 ### Game
 - ``!play`` Can be used to start a game if you are not currently in one.
 - ``!stop`` Can be used to stop your active game at any time.
-### Economy ``!New``
+### Economy
  - ``!bal`` Shows the players balance.
+ - ``!fish`` Shows the players balance.
  - ``!shop``Sends an embed with the items you can buy/sell.
  - ``!sell [item] [amt|max]`` sells items to the shop.
  - ``!inv`` Sends an embed with your current inventory items.
@@ -25,6 +26,7 @@ To prevent other bots triggering on the ! prefix you are able to change the pref
 ### Misc
 - ``!help`` Provides some info on the commands and their usage on the bot.
 - ``!info`` Provides some info on the bots status and links for the bot.
+- ``!fishing`` Provides some info on the fishing aspect of the bot. [!](https://www.ohavshalom.org/wp-content/uploads/2019/10/new.png)
 ### Admin 
 - ``!prefix [character]`` Can be used to change the prefix to whatever the user puts in ``[character]`` the char must be 1 character long.
 ### DEV ONLY
@@ -32,8 +34,8 @@ To prevent other bots triggering on the ! prefix you are able to change the pref
 - ``!setmoney`` Sets the users balance.
 
 # Latest Update
-### Economy
-With the new economy you can now finish levels to get 10 money for every level completed, the more money you get the better items you can buy such as a pickaxe or an axe the shop also has some collectables you can buy and sell in the future i will make the collectables go towards something.
+### Fishing
+This update has added several new commands
 
 ## INFO
 For more updates join our [discord](https://discord.gg/T8yhmvVqph) or check out the sokobot [twitter](https://twitter.com/SokoBotStatus).
