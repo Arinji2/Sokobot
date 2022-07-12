@@ -26,7 +26,7 @@ To prevent other bots triggering on the ! prefix you are able to change the pref
 ### Misc
 - ``!help`` Provides some info on the commands and their usage on the bot.
 - ``!info`` Provides some info on the bots status and links for the bot.
-- ``!fishing`` Provides some info on the fishing aspect of the bot. ![](https://github.com/jman13378/Sokobot/blob/master/NEWr.png)
+- ``!fishing`` Provides some info on the fishing aspect of the bot. ![](https://github.com/jman13378/Sokobot/blob/master/NEWr_50.png)
 ### Admin 
 - ``!prefix [character]`` Can be used to change the prefix to whatever the user puts in ``[character]`` the char must be 1 character long.
 ### DEV ONLY
